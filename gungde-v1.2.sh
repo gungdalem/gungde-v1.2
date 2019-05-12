@@ -5,8 +5,9 @@
 
 figlet welcome | lolcat
 echo selamat datang KAKEK , siapa nama KAKEK ? | lolcat
-read $nama
+read nama
 echo selamat datang KAKEK $nama | lolcat
+
 # Variables
 b='\033[1m'
 u='\033[4m'
@@ -25,6 +26,7 @@ red='\e[1;31m'
 
 figlet GUNGDE GANTENG | lolcat
 figlet love $nama | lolcat
+
 echo -e  "_____________________________________________________________"
 echo -e  "Tools    : GUNGDE $white         " |lolcat
 echo -e  "by       : GUNGDE GANS   " |lolcat
@@ -57,13 +59,13 @@ echo -e $b "1.  locator${enda}" | lolcat ;
 echo -e "============================" | lolcat
 echo -e $r "2.  shellphish${endc}" | lolcat ;
 echo -e "============================" | lolcat
-echo -e $g "3.  BRUTEFORCE--NEW${endc}" | lolcat;
+echo -e $g "3.  BRUTEFORCE--NEW${endc}" | lolcat ;
 echo -e "============================" | lolcat
 echo -e $c "4   weeman${endc}" | lolcat ;
 echo -e "============================" | lolcat
 echo -e $r"5.  Tools-X${endc}" | lolcat ;
 echo -e "============================" | lolcat
-echo -e $r "6. Exit${endc}" | lolcat;
+echo -e $r "6. Exit${endc}" | lolcat ;
 echo ""
 echo -e "╭─GUNGDE" |lolcat
 read -p "╰─#" pil;
@@ -78,6 +80,7 @@ echo "cara menggunakan locator " |lolcat
 echo "cd locator" | lolcat
 echo "bash locator.sh" | lolcat
 echo
+
 ;;
 
 # shellphish
@@ -88,6 +91,7 @@ figlet selesai | lolcat
 echo "cara menggunakan shellphish" | lolcat
 echo "cd shellphish" | lolcat
 echo "bash shellphish.sh" | lolcat
+echo
 
 ;;
 
